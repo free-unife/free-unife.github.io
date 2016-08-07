@@ -226,9 +226,28 @@ hr {
    a, a:hover, a:visited
 */
 
-a {
-  color: #63c0f5;
-  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+a:link {
+  color: #eaeaea;
+  text-decoration:none;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+a:visited {
+  color: #b3b3b3;
+  text-decoration:none;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+a:hover {
+  color: #eaeaea;
+  text-decoration:underline;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+a:active {
+  color: #b3b3b3;
+  text-decoration:underline;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
 }
 
 /* Clearfix */
