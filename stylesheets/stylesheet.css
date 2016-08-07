@@ -227,27 +227,27 @@ hr {
 */
 
 a:link {
-  color: #eaeaea;
+  color: #ffffff;
   text-decoration:none;
-  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  text-shadow: 0 0 5px rgba(230, 230, 230, 0.1);
 }
 
 a:visited {
-  color: #b3b3b3;
+  color: #cccccc;
   text-decoration:none;
-  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  text-shadow: 0 0 5px rgba(255, 230, 230, 0.1);
 }
 
 a:hover {
-  color: #eaeaea;
+  color: #ffffff;
   text-decoration:underline;
-  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  text-shadow: 0 0 5px rgba(230, 230, 230, 0.1);
 }
 
 a:active {
-  color: #b3b3b3;
+  color: #cccccc;
   text-decoration:underline;
-  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  text-shadow: 0 0 5px rgb(230, 230, 230, 0.1);
 }
 
 /* Clearfix */
